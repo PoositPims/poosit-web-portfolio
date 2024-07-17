@@ -10,17 +10,19 @@ import { FaNode } from "react-icons/fa";
 
 function TechStack() {
   return (
-    <div className="my-10">
-      <h3 className="text-3xl py-1">Tech Stack</h3>
+    <div className="my-10 py-10 shadow-lg rounded-xl">
+      <h3 className="text-3xl p-2 mb-5 font-medium dark:text-white">
+        Tech Stack
+      </h3>
       <div className="md:text-9xl text-6xl flex flex-wrap justify-center gap-10 text-gray-600">
-        <FaHtml5 />
-        <FaCss3Alt />
-        <IoLogoJavascript />
-        <FaNode />
-        <RiTailwindCssFill />
-        <FaReact />
-        <FaVuejs />
-        <BsFiletypeSql />
+        <FaHtml5 className="hover:text-red-500" />
+        <FaCss3Alt className="hover:text-blue-600" />
+        <IoLogoJavascript className="hover:text-yellow-500" />
+        <FaNode className="hover:text-green-500" />
+        <RiTailwindCssFill className="hover:text-sky-500" />
+        <FaReact className="hover:text-sky-500" />
+        <FaVuejs className="hover:text-green-600" />
+        <BsFiletypeSql className="hover:text-sky-500" />
       </div>
     </div>
   );

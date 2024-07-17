@@ -33,7 +33,7 @@ function MyBasicDetail() {
       </div>
       <div className="5xl flex justify-center text-gray-600">
         <a href="https://www.linkedin.com/in/poosit-pimsensri-b368181a7/">
-          <AiFillLinkedin className="text-5xl dark:text-white" />
+          <AiFillLinkedin className="text-5xl dark:text-white hover:text-blue-600 dark:hover:text-blue-600" />
         </a>
       </div>
     </div>
