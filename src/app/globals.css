@@ -21,6 +21,12 @@
   -webkit-text-fill-color: transparent;
 }
 
+.gradient-text-red {
+  background: linear-gradient(90deg, #bc0d0d, #ff7700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
