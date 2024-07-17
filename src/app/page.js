@@ -23,8 +23,8 @@ export default function Home() {
         </section>
         <section>
           <TechStack />
-          <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+          <div className="lg:grid gap-10 lg:grid-cols-3">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white ">
               <Image
                 src={design}
                 width={100}
@@ -33,32 +33,29 @@ export default function Home() {
                 className="mx-auto"
               />
               <h3 className="text-lg font-medium pt-8 pb-2">
-                Beautiful design
+                Always open to learn new things
               </h3>
               <p className="py-2">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Aspernatur inventore tenetur atque, dolorem soluta quidem
-                officiis voluptas neque deleniti animi!
+                I only fill a glass of water less than half full because I am
+                always seeking more knowledge. As the world continues to turn,
+                so do I. I will never stop learning!
               </p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={code} width={100} height={100} alt="code" />
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white ">
+              <Image
+                src={code}
+                width={100}
+                height={100}
+                alt="code"
+                className="mx-auto"
+              />
               <h3 className="text-lg font-medium pt-8 pb-2">
-                Beautiful design
+                Work under pressure
               </h3>
               <p className="py-2">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Aspernatur inventore tenetur atque, dolorem soluta quidem
-                officiis voluptas neque deleniti animi!
+                I excel in high-pressure environments, maintaining composure and
+                delivering results even under tight deadlines.
               </p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image
@@ -66,19 +63,17 @@ export default function Home() {
                 width={100}
                 height={100}
                 alt="consulting"
+                className="mx-auto"
               />
               <h3 className="text-lg font-medium pt-8 pb-2">
-                Beautiful design
+                Interpersonal skills
               </h3>
               <p className="py-2">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Aspernatur inventore tenetur atque, dolorem soluta quidem
-                officiis voluptas neque deleniti animi!
+                I am capable of interacting effectively with people from all
+                walks of life. I treat everyone with respect and kindness,
+                fostering a collaborative environment to achieve tasks
+                efficiently.
               </p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
             </div>
           </div>
         </section>

@@ -10,7 +10,7 @@ function MyBasicDetail() {
         <div className="relative mx-auto bg-gradient-to-b from-blue-600 rounded-full w-80 h-80 mb-10 overflow-hidden md:h-96 md:w-96">
           <Image src={deved} layout="fill" objectFit="cover" alt="picture" />
         </div>
-        <h2 className="text-5xl py-2 text-blue-600 font-medium md:text-6xl">
+        <h2 className="text-5xl py-2 gradient-text font-medium md:text-6xl">
           Poosit Pimsensri
         </h2>
         <h3 className="text-2xl py-2 md:text-3xl dark:text-white">

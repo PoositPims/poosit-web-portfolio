@@ -5,7 +5,8 @@ function Header({ darkMode, setDarkMode }) {
   return (
     <section>
       <nav className="py-10 mb-10 flex justify-between">
-        <h1 className="text-xl font-burtons dark:text-white">Poosit</h1>
+        <h1 className="text-4xl font-bold gradient-text">POOSIT </h1>
+
         <ul className="flex items-center">
           <li>
             <BsFillMoonStarsFill

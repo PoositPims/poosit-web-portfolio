@@ -15,16 +15,11 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-/* body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
+.gradient-text {
+  background: linear-gradient(90deg, #3b82f6, #5eead4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 @layer utilities {
   .text-balance {
