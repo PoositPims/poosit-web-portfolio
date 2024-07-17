@@ -5,12 +5,12 @@ function Header({ darkMode, setDarkMode }) {
   return (
     <section>
       <nav className="py-10 mb-10 flex justify-between">
-        <h1 className="text-xl font-burtons">Poosit</h1>
+        <h1 className="text-xl font-burtons dark:text-white">Poosit</h1>
         <ul className="flex items-center">
           <li>
             <BsFillMoonStarsFill
               onClick={() => setDarkMode(!darkMode)}
-              className="cursor-pointer text-2xl"
+              className="cursor-pointer text-2xl dark:text-white"
             />
           </li>
           <li>

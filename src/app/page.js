@@ -9,6 +9,7 @@ import code from "../../public/code.png";
 import consulting from "../../public/consulting.png";
 import { useState } from "react";
 import MyBasicDetail from "@/components/MyBasicDetail";
+import TechStack from "@/components/TechStack";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,21 +22,7 @@ export default function Home() {
           <MyBasicDetail />
         </section>
         <section>
-          <div>
-            <h3 className="text-3xl py-1">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-80">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-              quo quisquam illo molestiae unde sapiente corrupti facilis
-              repellat, velit voluptatem maiores nobis iure cumque vitae,
-              dolorum omnis architecto repellendus incidunt.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-500">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-              quo quisquam illo molestiae unde sapiente corrupti facilis
-              repellat, velit voluptatem maiores nobis iure cumque vitae,
-              dolorum omnis architecto repellendus incidunt.
-            </p>
-          </div>
+          <TechStack />
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image
@@ -95,11 +82,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* <section>
-        <div>
-          <h3>Portfolio</h3>
-        </div>
-      </section> */}
       </main>
     </div>
   );

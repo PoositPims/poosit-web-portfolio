@@ -13,11 +13,11 @@ function MyBasicDetail() {
         <h2 className="text-5xl py-2 text-blue-600 font-medium md:text-6xl">
           Poosit Pimsensri
         </h2>
-        <h3 className="text-2xl py-2 md:text-3xl">
+        <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
           Frontend Developer <br />
-          <h3 className="md:text-2xl md:mt-5">and Dream Chaser.</h3>
+          <p className="md:text-2xl md:mt-5">and Dream Chaser.</p>
         </h3>
-        <p className="text-md py-5 leading-8 text-gray-800 md:text-md max-w-xl mx-auto">
+        <p className="text-md py-5  text-gray-800 md:text-md max-w-xl mx-auto dark:text-white">
           A simple person who want to push through to the limit &quot; i will
           never do that &quot; with fixed mindset that i was not engineering
           student. <br />
@@ -33,7 +33,7 @@ function MyBasicDetail() {
       </div>
       <div className="5xl flex justify-center text-gray-600">
         <a href="https://www.linkedin.com/in/poosit-pimsensri-b368181a7/">
-          <AiFillLinkedin className="text-5xl" />
+          <AiFillLinkedin className="text-5xl dark:text-white" />
         </a>
       </div>
     </div>
