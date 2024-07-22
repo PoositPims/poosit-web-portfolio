@@ -39,7 +39,7 @@ export default function Home() {
         </section>
         <section>
           <TechStack />
-          <div className="px-8 lg:grid gap-10 lg:grid-cols-3 py-10">
+          <div className="px-8 md:px-20 lg:grid gap-10 lg:grid-cols-3 py-10">
             {softskills.map((item, index) => (
               <EachSoftSkill
                 id={index}
