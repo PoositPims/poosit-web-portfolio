@@ -10,11 +10,10 @@ import { FaNode } from "react-icons/fa";
 
 function TechStack() {
   return (
-    <div className="my-10 py-10 shadow-lg rounded-xl">
-      <h3 className="text-3xl p-2 mb-5 font-medium dark:text-white">
+    <div className=" mx-8 my-10 py-10 shadow-lg rounded-xl">
+      <h3 className="text-center text-3xl p-2 mb-5 font-medium dark:text-white">
         Tech Stack
       </h3>
-      {/* <div className="md:text-9xl text-6xl flex flex-wrap justify-center gap-10 text-gray-600"> */}
       <div className="ms-20 md:text-9xl text-6xl grid grid-cols-2 lg:grid-cols-4 gap-10 text-gray-600">
         <FaHtml5 className="hover:text-red-500 " />
         <FaCss3Alt className="hover:text-blue-600" />

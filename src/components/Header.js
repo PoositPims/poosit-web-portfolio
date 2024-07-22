@@ -3,9 +3,9 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 
 function Header({ darkMode, setDarkMode }) {
   return (
-    <section>
-      <nav className="pt-10  flex justify-between">
-        <h1 className="text-4xl font-bold gradient-text">POOSIT </h1>
+    <section className="dark:bg-gray-900">
+      <nav className="mx-auto px-6 md:px-20 pt-10 flex justify-between">
+        <h1 className="text-3xl font-bold gradient-text">POOSIT </h1>
 
         <ul className="flex items-center">
           <li>
