@@ -33,25 +33,21 @@ export default function Home() {
 
   return (
     <div>
-      <main className="bg-white  dark:bg-gray-900">
-        <section className="min-h-screen">
-          <MyBasicDetail />
-        </section>
-        <section>
-          <TechStack />
-          <div className="px-8 md:px-20 lg:grid gap-10 lg:grid-cols-3 py-10">
-            {softskills.map((item, index) => (
-              <EachSoftSkill
-                id={index}
-                key={index}
-                pic={item.pic}
-                alt={item.alt}
-                title={item.title}
-                content={item.content}
-              />
-            ))}
-          </div>
-        </section>
+      <main className="bg-slate-100	 dark:bg-gray-900">
+        <MyBasicDetail />
+        <TechStack />
+        <div className="px-8 md:px-20 lg:grid gap-10 lg:grid-cols-3 pb-10">
+          {softskills.map((item, index) => (
+            <EachSoftSkill
+              id={index}
+              key={index}
+              pic={item.pic}
+              alt={item.alt}
+              title={item.title}
+              content={item.content}
+            />
+          ))}
+        </div>
       </main>
     </div>
   );
