@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="pt-10 flex items-center justify-center pb-10 dark:bg-gray-900 dark:text-white">
+    <footer className="pt-8 flex items-center justify-center pb-10 dark:bg-gray-900 dark:text-white">
       <div className="mx-auto px-8 md:px-20 flex w-full flex-col gap-5">
         <div className="mx-auto w-full flex flex-col md:flex-row gap-6 md:justify-between">
           <h1 className="text-3xl font-bold gradient-text">POOSIT </h1>
