@@ -30,7 +30,7 @@ function Footer() {
         </div>
         <div className="border bg-gray-20" />
         <p className="w-full text-center text-gray-30">
-          2024 Made by Poosit | Never stop learning
+          2024 Made by Poosit | Never stop learning!
         </p>
       </div>
     </footer>
