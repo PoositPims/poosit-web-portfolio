@@ -14,7 +14,7 @@ function MyBasicDetail() {
           Poosit Pimsensri
         </h2>
       </div>
-      <div className="md:shadow-lg md:rounded-xl my-auto bg-white py-5 rounded-xl">
+      <div className="md:shadow-lg px-2 md:rounded-xl my-auto bg-white py-5 rounded-xl">
         <h3 className="text-2xl py-2 md:text-3xl ">
           Frontend Developer <br />
           <p className="md:text-2xl ">

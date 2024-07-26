@@ -14,7 +14,6 @@ function TechStack() {
       <h3 className="text-center text-3xl p-2 mb-5 font-medium dark:text-gray-400">
         Tech Stack
       </h3>
-      {/* <div className="ms-20 md:text-9xl text-6xl grid grid-cols-2 lg:grid-cols-4 gap-10 text-gray-600"> */}
       <div className="md:text-7xl text-6xl grid grid-cols-2 lg:grid-cols-4 gap-10 text-gray-600">
         <FaHtml5 className="hover:text-red-500 mx-auto" />
         <FaCss3Alt className="hover:text-blue-600 mx-auto" />
