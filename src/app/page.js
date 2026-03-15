@@ -6,6 +6,7 @@ import MyBasicDetail from "@/components/MyBasicDetail";
 import TechStack from "@/components/TechStack";
 import EachSoftSkill from "@/components/EachSoftSkill";
 import Portfolio from "@/components/Portfolio";
+// import WorkExperiences from "@/components/workExperiences";
 
 export default function Home() {
   const softskills = [
@@ -36,8 +37,9 @@ export default function Home() {
     <div>
       <main className="bg-slate-100	 dark:bg-gray-900">
         <MyBasicDetail />
-        <Portfolio />
-        <TechStack />
+        {/* <WorkExperiences /> */}
+        {/* <Portfolio /> */}
+        {/* <TechStack /> */}
         <div className="px-8 md:px-20 lg:grid gap-10 lg:grid-cols-3 pb-10">
           {softskills.map((item, index) => (
             <EachSoftSkill
