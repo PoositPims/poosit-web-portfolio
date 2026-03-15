@@ -16,13 +16,15 @@ function MyBasicDetail() {
       </div>
       <div className="md:shadow-lg px-2 md:rounded-xl my-auto bg-white py-5 rounded-xl">
         <h3 className="text-2xl py-2 md:text-3xl ">
-          Frontend Developer <br />
-          <p className="md:text-2xl ">
-            and &nbsp;
-            <span className="gradient-text-red">Dream Chaser.</span>
-          </p>
+          Sales representative <br />
+          <a href="https://yokohamathailand.com/">
+            <p className="md:text-2xl ">
+              at &nbsp;
+              <span className="gradient-text-red">Yokohama Thailand.</span>
+            </p>
+          </a>
         </h3>
-        <p className="text-md py-5  text-gray-800 md:text-md max-w-xl mx-auto ">
+        {/* <p className="text-md py-5  text-gray-800 md:text-md max-w-xl mx-auto ">
           <span className="font-semibold gradient-text-red">
             &quot;Labor Omnia Vincit&quot;{" "}
           </span>
@@ -32,6 +34,17 @@ function MyBasicDetail() {
           With a passion for technology and programming, I am not afraid of hard
           work. Instead, I fear work that does not contribute to my skill
           development.
+        </p> */}
+        <p className="text-md py-5  text-gray-800 md:text-md max-w-xl mx-auto ">
+          <span className="font-semibold gradient-text-red">
+            &quot;Labor Omnia Vincit&quot;{" "}
+          </span>
+          is a Latin phrase that inspired me to step out of my comfort zone and
+          push through to my limits. <br />
+          <br />
+          With a passion for account management and technology, I am not afraid
+          of hard work. Instead, I fear work that does not contribute to my
+          skill development.
         </p>
         <div className="4xl flex justify-center text-gray-600">
           <a href="https://www.linkedin.com/in/poosit-pimsensri-b368181a7/">
